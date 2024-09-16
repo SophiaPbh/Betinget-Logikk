@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="lang"></p>
+
+    <script>
+        var alder = 26
+
+        if(alder <= 18 && alder >=62) {
+        } else if(alder <= 18) {
+            document.getElementById("lang").innerHTML = `Du er ikke myndig`
+        } else if(alder >= 18 && alder <=26) {
+            document.getElementById("lang").innerHTML = `Du er myndig og klar for studier eller arbeidslivet`
+        } else {
+            document.getElementById("lang").innerHTML = `Du er pensjonsklar!`
+        }
+
+    </script>
+</body>
+</html>
