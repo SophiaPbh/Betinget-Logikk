@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="barn"></p>
+
+    <script>
+
+        var barn1 = 30
+        var barn2 = 80
+        var barn3 = 90
+        let antall_jenter = 1
+        let antall_gutter = 1
+        let usikkert = 1
+
+if(barn1 <= barn2 && barn1 >= barn3) {
+} else if(barn1 <= barn3) {
+    document.getElementById("barn").innerHTML = `Det er ${barn1} barn som er jenter` +  " + " + antall_jenter++
+} else if(barn1 >= barn2) {
+    document.getElementById("barn").innerHTML = `Det er ${barn2} barn som er gutter` +  " + " + antall_gutter++
+} else if(barn1 <= barn1) {
+    document.getElementById("barn").innerHTML = `Det er ${barn3} barn som har usikkert kjønn` +  " + " + usikker++
+} else {
+    document.getElementById("barn").innerHTML = `Vet ikke`
+}
+
+    </script>
+</body>
+</html>
