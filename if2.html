@@ -10,6 +10,7 @@
 
     <script>
         var alder = 26
+        let lang = "";
 
         if(alder <= 18 && alder >=62) {
         } else if(alder <= 18) {
@@ -19,6 +20,8 @@
         } else {
             document.getElementById("lang").innerHTML = `Du er pensjonsklar!`
         }
+
+        document.getElementById("lang").innerHTML = Lang;
 
     </script>
 </body>
