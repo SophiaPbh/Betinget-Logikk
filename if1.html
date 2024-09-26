@@ -6,21 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    <p id="person1"></p>
-    <p id="person2"></p>
+    <p id="person"></p>
 
 
     <script>
         //Lager en variabel med mitt eget navn, og en annen som heter utskrift
-        var sophia = "Sophia Helseth"
-        var utskrift = ""
+        const navn = "Sophia"
+        let person1
+        let person2
 
         //Lager if-test som sjekker følgende ting:
-        if(sophia) {
-            document.getElementById("person1").innerHTML = `Mitt navn er ${sophia}`
-        } else(navnet => utskrift); {
-            document.getElementById("person2").innerHTML = `${utskrift}`
+        if(navn === "Sophia") {
+            person = "Mitt navn er " + navn
+        } else {
+            person = "Jeg heter ikke " + navn
         }
+
+        document.getElementById("person").innerHTML = person
 
     </script>
     
